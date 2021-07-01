@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" ;>
+    <title>صفحة هبوط لتطبيق هاتف</title>
+    <meta name="description" content="هذه هي صفحة هبوط لتطبيق هاتف عبارة عن لعبة">
+    <link rel="stylesheet" href="assest/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- تضمين ملف الحركه لتطبيقه على بعض العناصر -->
+    <link rel="stylesheet" href="assest/animate/animate.css" />
+    <!-- تضمين ملفات ال font awesome -->
+    <link rel="stylesheet" href="assest/font-awesome/css/font-awesome.min.css" />
+</head>
+
+<body>
+
+    <header class="text-center">
+        <!-- إضافة حركة لشعار الصفحة -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__bounceIn الى bounceIn تم تبديل الصنف -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__animated تم اضافة الصنف -->
+        <div class="brand wow animate__animated animate__bounceIn">
+            <div class="logo pr-4">
+                <img src="image/icon.png" alt="شعار التطبيق" />
+            </div>
+
+            <div class="slogn">
+                <img src="image/slogn.png" alt="شعار التطبيق" />
+            </div>
+
+
+        </div>
+        <!-- إضافة نص العنوان للصفحة وإضافة فقرة نصية أسفله -->
+        <!-- إضافة حركة على الفقرة النصية في الترويسة -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__fadeInUp الى fadeInUp تم تبديل الصنف -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__animated تم اضافة الصنف -->
+        <div class="page-heading wow animate__animated animate__fadeInUp">
+            <h1>
+                أنتظروا إنطلاق التطبيق قريباً
+            </h1>
+            <p>
+                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم
+                في صناعات المطابع
+            </p>
+        </div>
+
+        <!-- إضافة عنصر العد إلى جسم الصفحة -->
+        <!-- إضافة حركة على العداد الزمني في الصفحة -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__fadeInDown الى fadeInDown تم تبديل الصنف -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__animated تم اضافة الصنف -->
+        <div class="counter wow animate__animated animate__fadeInDown">
+            <div id="defaultCountdown">
+            </div>
+        </div>
+
+        <!-- action, method, Name وتحديد الخصائص <form> إضافة العنصر -->
+        <!-- إضافة حركة على نموذج تسجيل عنوان البريد الإلكتروني في الصفحة -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__zoomIn الى zoomIn تم تبديل الصنف -->
+        <!-- ليتناسب مع الاصدار رقم 4 animate__animated تم اضافة الصنف -->
+        <div class="send-notification wow animate__animated animate__zoomIn">
+            <p>
+                هل تريد إرسال إشعار فور الانطلاق؟
+            </p>
+            <!-- نموذج إضافة البريد الإلكتروني -->
+            <form action="#" method="post" name="myForm" class="animate__animated animate__zoomIn">
+                <!-- Form-Group -->
+                <div class="form-group">
+                    <!-- Input-Group -->
+                    <div class="input-group input-group-lg">
+                        <input type="email" class="form-control" placeholder="بريدك الالكتروني" name="email" required>
+                        <!-- لازم اضيف الصنف form-control للانبوت 
+                                    او السيلكت او تيكست ايريا للي بيجوا ضمن كلاس form-group -->
+                        <span class="input-group-btn">
+                            <button class="btn Form-Submit" type="submit" name="submit">
+                                <img src="image/icons/send1.png" alt="send" />
+                            </button>
+                        </span>
+                        <!-- إضافة رسالة نجاح أو فشل إدخال عنوان البريد الإلكتروني -->
+                        <!-- Alert -->
+                        <div class="alert alert-danger" role="alert">
+                            <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                        </div> <!-- End Alert -->
+                        <!-- Alert -->
+                        <div class="alert alert-success" role="alert">
+                            <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                        </div> <!-- End Alert -->
+                    </div><!-- End Input-Group -->
+                </div><!-- End Form-Group -->
+            </form>
+        </div>
+    </header>
+    <section class="features">
+        <div class="container">
+            <h2>
+                مميزات اللعبة
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="image/icons/prush.png" alt="feature icon" />
+                        <div class="media-body">
+                            <h5>
+                                تصميم انيق وعصري
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5>
+                                اللعبة متوفرة بوضع الشاشة الممتلئ
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                        <img src="image/icons/phone.png" alt="feature icon" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="image/icons/photo.png" alt="feature icon" />
+                        <div class="media-body">
+                            <h5>
+                                يوجد صور لتوضيح تفاصيل اللعبة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5>
+                                يمكنك مشاركة اللعبة كمجموعة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                        <img src="image/icons/fork.png" alt="feature icon" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="image/icons/mail.png" alt="feature icon" />
+                        <div class="media-body">
+                            <h5>
+                                يمكنك ارسال الهدايا لأصدقائك عبر اللعبة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media">
+                        <div class="media-body">
+                            <h5>
+                                أضافة اصدقاء جدد لاستخدام اللعبة
+                            </h5>
+                            <p>
+                                هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع
+                            </p>
+                        </div>
+                        <img src="image/icons/person-plus.png" alt="feature icon" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- للصفحة وكتابة النص داخله <footer> إضافة العنصر -->
+    <footer>
+        <div class="top-footer text-center">
+            <div class="overlay">
+                <h3>
+                    قم بإضافة بريدك الإلكتروني ليصلك إشعار فور الانطلاق
+                </h3>
+                <!-- نموذج إضافة البريد الإلكتروني -->
+                <form action="#" method="post" name="myForm2" class="animate__animated animate__zoomIn">
+                    <!-- Form-Group -->
+                    <div class="form-group">
+                        <!-- Input-Group -->
+                        <div class="input-group input-group-lg">
+                            <input type="email" class="form-control" placeholder="بريدك الالكتروني" name="email2"
+                                required>
+                            <!-- لازم اضيف الصنف form-control للانبوت 
+                                او السيلكت او تيكست ايريا للي بيجوا ضمن كلاس form-group -->
+                            <span class="input-group-btn">
+                                <button class="btn Form-Submit" type="submit" name="submit2">
+                                    <img src="image/icons/send.png" alt="send" />
+                                </button>
+                            </span>
+                            <!-- إضافة رسالة نجاح أو فشل إدخال عنوان البريد الإلكتروني -->
+                            <!-- Alert -->
+                            <div class="alert alert-danger" role="alert">
+                                <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                            </div> <!-- End Alert -->
+                            <!-- Alert -->
+                            <div class="alert alert-success" role="alert">
+                                <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                            </div> <!-- End Alert -->
+                        </div><!-- End Input-Group -->
+                    </div><!-- End Form-Group -->
+                </form>
+            </div>
+        </div>
+        <div class="contact text-center">
+            <div class="overlay">
+                <!-- إضافة عنوان -->
+                <h3>
+                    تابعنا على القنوات الاجتماعية
+                </h3>
+                <!-- ضمن الصفحة Font-Awesome تضمين  أنماط الخطوط والأيقونات -->
+                <link rel="stylesheet" href="asset/font-awesome/css/font-awesome.min.css" />
+                <!-- إضافة أيقونات التواصل الاجتماعي إلى الصفحة -->
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="facebook">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="twitter">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="linkedin">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="instagram">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+                <!-- إضافة رابط إرسال بريد إلكتروني وإضافة أيقونة له -->
+                <p>
+                    <a href="mailto:info@domain.com?Subject=Hello" target="_top">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        info@domain.com
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="assest/javascript/jquery-3.5.1.min.js"></script>
+    <script src="assest/bootstrap/bootstrap.min.js"></script>
+    <!-- تضمين ملف جافاسكربت إلى الصفحة -->
+    <script src="js/js.js"></script>
+    <!-- تضمين ملف يتضمن مكتبة wow 
+    التي تكتشف الحركات المضمنه للصفحة-->
+    <script src="assest/wow/wow.min.js"></script>
+    <!-- jQuery.countdown تضمين ملفات -->
+    <script src="assest/countdown/js/jquery.plugin.min.js"></script>
+    <script src="assest/countdown/js/jquery.countdown.min.js"></script>
+    <script src="assest/countdown/js/jquery.countdown-ar.js"></script>
+    
+</body>
+
+</html>
